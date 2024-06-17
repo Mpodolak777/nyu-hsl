@@ -11,6 +11,12 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
+      '/drupal': {
+        target: 'https://hsl.lndo.site',
+        changeOrigin: true,
+        secure: false,
+        rewrite: (path) => path.replace(/^\/drupal/, ''),
+      }
     }
   }
 })

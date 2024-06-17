@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    @font-face {
+      font-family: 'BentonSans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(/fonts/BentonSans.woff2) format('woff2');
+    }
+  }
